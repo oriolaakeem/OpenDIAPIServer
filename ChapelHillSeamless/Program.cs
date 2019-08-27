@@ -15,7 +15,7 @@ namespace ChapelHill
         {
             var host = new WebHostBuilder()
                 .UseKestrel()
-                .UseUrls("http://localhost:5507")
+                //.UseUrls("http://localhost:5507")
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
                 .ConfigureLogging((hostingContext, logging) =>
@@ -28,6 +28,7 @@ namespace ChapelHill
                 })
                 .UseStartup<Startup>()
                 //.UseApplicationInsights()
+                .UseUrls("http://*:5507")
                 .Build();
 
             host.Run();
