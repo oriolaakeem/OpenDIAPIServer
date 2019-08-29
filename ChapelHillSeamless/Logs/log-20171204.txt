@@ -1,0 +1,99 @@
+2017-12-04T14:41:16.0715852+00:00  [INF] Start installing Hangfire SQL objects... (c7f12654)
+2017-12-04T14:41:16.3985440+00:00  [INF] Hangfire SQL objects installed. (3fbb82fb)
+2017-12-04T14:41:16.5389911+00:00  [INF] Starting Hangfire Server (a3381deb)
+2017-12-04T14:41:16.5589931+00:00  [INF] Using job storage: 'SQL Server: 10.211.55.5@Hangfire' (d3727390)
+2017-12-04T14:41:16.5656769+00:00  [INF] Using the following options for SQL Server job storage: (29c76527)
+2017-12-04T14:41:16.5715020+00:00  [INF]     Queue poll interval: 00:00:15. (8e4e0bf5)
+2017-12-04T14:41:16.5740536+00:00  [INF] Using the following options for Hangfire Server: (3b129e02)
+2017-12-04T14:41:16.5779887+00:00  [INF]     Worker count: 20 (10318138)
+2017-12-04T14:41:16.5864885+00:00  [INF]     Listening queues: 'default' (3f0cb32f)
+2017-12-04T14:41:16.5894925+00:00  [INF]     Shutdown timeout: 00:00:15 (57ff5852)
+2017-12-04T14:41:16.6004921+00:00  [INF]     Schedule polling interval: 00:00:15 (95e7a17b)
+2017-12-04T14:41:16.6794943+00:00  [DBG] Background process 'BackgroundProcessingServer' started. (34f1e42f)
+2017-12-04T14:41:17.7362901+00:00  [DBG] Background process 'ServerHeartbeat' started. (d403bc65)
+2017-12-04T14:41:17.8754218+00:00  [DBG] Background process 'ServerWatchdog' started. (efc78358)
+2017-12-04T14:41:17.8898865+00:00  [DBG] Background process 'Hangfire.SqlServer.ExpirationManager' started. (b9324b70)
+2017-12-04T14:41:17.9738472+00:00  [DBG] Background process 'Hangfire.SqlServer.CountersAggregator' started. (d56840e0)
+2017-12-04T14:41:18.0303063+00:00  [DBG] Removing outdated records from the 'AggregatedCounter' table... (da010273)
+2017-12-04T14:41:18.0343015+00:00  [DBG] Background process 'Worker #be06e3d9' started. (4bcd8900)
+2017-12-04T14:41:18.0807359+00:00  [DBG] Aggregating records in 'Counter' table... (ec56aa53)
+2017-12-04T14:41:18.2623425+00:00  [DBG] Background process 'Worker #1116ecc0' started. (e446358f)
+2017-12-04T14:41:18.3603417+00:00  [DBG] Background process 'Worker #36982fe3' started. (09a38fd1)
+2017-12-04T14:41:18.3813410+00:00  [DBG] Removing outdated records from the 'Job' table... (1f85e191)
+2017-12-04T14:41:18.4458531+00:00  [DBG] Background process 'Worker #21f22306' started. (63ce0cab)
+2017-12-04T14:41:18.4832066+00:00  [DBG] Background process 'Worker #b789acc4' started. (091b95e2)
+2017-12-04T14:41:18.6542395+00:00  [DBG] Background process 'Worker #2d56707e' started. (974b2b91)
+2017-12-04T14:41:18.8691288+00:00  [DBG] Background process 'Worker #b5583526' started. (c6bcae7a)
+2017-12-04T14:41:18.8846235+00:00  [DBG] Removing outdated records from the 'List' table... (ca629658)
+2017-12-04T14:41:19.0058402+00:00  [DBG] Background process 'Worker #56c5e4b0' started. (5fcae654)
+2017-12-04T14:41:19.0145738+00:00  [DBG] Background process 'Worker #c0465542' started. (94a1cc2d)
+2017-12-04T14:41:19.1471027+00:00  [DBG] Removing outdated records from the 'Set' table... (32d3335e)
+2017-12-04T14:41:19.1719342+00:00  [DBG] Background process 'Worker #09e72644' started. (eaee4bf2)
+2017-12-04T14:41:19.1903908+00:00  [DBG] Background process 'Worker #211b322a' started. (202897cd)
+2017-12-04T14:41:19.1903908+00:00  [DBG] Background process 'Worker #1d6ef552' started. (967ae9f7)
+2017-12-04T14:41:19.1913929+00:00  [DBG] Background process 'Worker #512f4f43' started. (80ea91d1)
+2017-12-04T14:41:19.2433908+00:00  [DBG] Removing outdated records from the 'Hash' table... (21672836)
+2017-12-04T14:41:19.2433908+00:00  [DBG] Background process 'Worker #aa5919c6' started. (879bac7c)
+2017-12-04T14:41:19.3033941+00:00  [DBG] Background process 'Worker #712cd926' started. (8b244fb3)
+2017-12-04T14:41:19.3423965+00:00  [DBG] Background process 'Worker #ca2c6034' started. (0d1eb12b)
+2017-12-04T14:41:19.4143944+00:00  [DBG] Background process 'Worker #aa1604cd' started. (a22726db)
+2017-12-04T14:41:19.4363955+00:00  [DBG] Background process 'Worker #fd672960' started. (18697922)
+2017-12-04T14:41:19.5253999+00:00  [DBG] Background process 'Worker #aab6207a' started. (64a95b53)
+2017-12-04T14:41:19.6264225+00:00  [DBG] Background process 'Worker #6fb35767' started. (36b630af)
+2017-12-04T14:41:19.6553992+00:00  [DBG] Background process 'DelayedJobScheduler' started. (c965c089)
+2017-12-04T14:41:19.6564045+00:00  [DBG] Background process 'RecurringJobScheduler' started. (c4fa4591)
+2017-12-04T14:42:02.1969950+00:00 0HL9R4KN7AUQR [INF] Request starting HTTP/1.1 GET http://localhost:5507/hangfire/recurring   (e5be5b71)
+2017-12-04T14:42:03.1399897+00:00 0HL9R4KN7AUQR [INF] Request finished in 1083.3654ms 200 text/html (15c52c40)
+2017-12-04T14:42:03.1524925+00:00 0HL9R4KN7AUQS [INF] Request starting HTTP/1.1 GET http://localhost:5507/hangfire/js1612   (e5be5b71)
+2017-12-04T14:42:03.2416339+00:00 0HL9R4KN7AUQT [INF] Request starting HTTP/1.1 GET http://localhost:5507/hangfire/css1612   (e5be5b71)
+2017-12-04T14:42:03.2712566+00:00 0HL9R4KN7AUQT [INF] Request finished in 35.6031ms 200 text/css (15c52c40)
+2017-12-04T14:42:03.2940229+00:00 0HL9R4KN7AUQS [INF] Request finished in 144.4513ms 200 application/javascript (15c52c40)
+2017-12-04T14:42:03.3926038+00:00 0HL9R4KN7AUQU [INF] Request starting HTTP/1.1 GET http://localhost:5507/hangfire/fonts/glyphicons-halflings-regular/woff2   (e5be5b71)
+2017-12-04T14:42:03.4216053+00:00 0HL9R4KN7AUQU [INF] Request finished in 15.0751ms 200 font/woff2 (15c52c40)
+2017-12-04T14:42:04.8326656+00:00  [INF] Executed DbCommand (20ms) [Parameters=[@__p_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT [t].[EmpId], [t].[Email], [t].[EmailSent], [t].[EndDate], [t].[Name], [t].[PayrollBatch], [t].[StartDate]
+FROM (
+    SELECT TOP(@__p_1) [e0].[EmpId], [e0].[Email], [e0].[EmailSent], [e0].[EndDate], [e0].[Name], [e0].[PayrollBatch], [e0].[StartDate]
+    FROM (
+        Select U_empid EmpId, code PayrollBatch,  EmailSent,b.LastName + '-' + b.FirstName Name, b.Email, a.StartDate, a.EndDate from ( Select a.U_empid, b.code, b.U_dStart StartDate, b.U_dEnd EndDate, ISNULL(U_EmailProcessed,'') EmailSent   from [@OWA_Prunsummary] a join [@OWA_prunhistory] b   on a.U_prhcode = b.code where b.Code = 75 and  ISNULL(U_EmailProcessed,'') <> 'Y') a join  OHEM b on a.U_empid = b.empid  Where (b.Email is not null and b.Email <> '') 
+    ) AS [e0]
+) AS [t]
+ORDER BY [t].[EmpId] (6438bdd5)
+2017-12-04T14:42:04.8331620+00:00  [INF] Executed DbCommand (29ms) [Parameters=[@__p_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT [t].[EmpId], [t].[Email], [t].[EmailSent], [t].[EndDate], [t].[Name], [t].[PayrollBatch], [t].[StartDate]
+FROM (
+    SELECT TOP(@__p_1) [e0].[EmpId], [e0].[Email], [e0].[EmailSent], [e0].[EndDate], [e0].[Name], [e0].[PayrollBatch], [e0].[StartDate]
+    FROM (
+        Select U_empid EmpId, code PayrollBatch,  EmailSent,b.LastName + '-' + b.FirstName Name, b.Email, a.StartDate, a.EndDate from ( Select a.U_empid, b.code, b.U_dStart StartDate, b.U_dEnd EndDate, ISNULL(U_EmailProcessed,'') EmailSent   from [@OWA_Prunsummary] a join [@OWA_prunhistory] b   on a.U_prhcode = b.code where b.Code = 76 and  ISNULL(U_EmailProcessed,'') <> 'Y') a join  OHEM b on a.U_empid = b.empid  Where (b.Email is not null and b.Email <> '') 
+    ) AS [e0]
+) AS [t]
+ORDER BY [t].[EmpId] (6438bdd5)
+2017-12-04T14:42:04.8546890+00:00  [INF] Executed DbCommand (29ms) [Parameters=[@__p_1='?'], CommandType='Text', CommandTimeout='30']
+SELECT [t].[EmpId], [t].[Email], [t].[EmailSent], [t].[EndDate], [t].[Name], [t].[PayrollBatch], [t].[StartDate]
+FROM (
+    SELECT TOP(@__p_1) [e0].[EmpId], [e0].[Email], [e0].[EmailSent], [e0].[EndDate], [e0].[Name], [e0].[PayrollBatch], [e0].[StartDate]
+    FROM (
+        Select U_empid EmpId, code PayrollBatch,  EmailSent,b.LastName + '-' + b.FirstName Name, b.Email, a.StartDate, a.EndDate from ( Select a.U_empid, b.code, b.U_dStart StartDate, b.U_dEnd EndDate, ISNULL(U_EmailProcessed,'') EmailSent   from [@OWA_Prunsummary] a join [@OWA_prunhistory] b   on a.U_prhcode = b.code where b.Code = 77 and  ISNULL(U_EmailProcessed,'') <> 'Y') a join  OHEM b on a.U_empid = b.empid  Where (b.Email is not null and b.Email <> '') 
+    ) AS [e0]
+) AS [t]
+ORDER BY [t].[EmpId] (6438bdd5)
+2017-12-04T14:42:05.0199570+00:00  [INF] Sending emails for for payroll batch ChapelHill.models.PayrollBatch (cecf4276)
+2017-12-04T14:42:05.0627520+00:00  [INF] Sending emails for for payroll batch ChapelHill.models.PayrollBatch (cecf4276)
+2017-12-04T14:42:05.0812838+00:00  [INF] Sending emails for for payroll batch ChapelHill.models.PayrollBatch (cecf4276)
+2017-12-04T14:42:05.2003305+00:00  [INF] Emails sent for payroll batch ChapelHill.models.PayrollBatch (0772fd13)
+2017-12-04T14:42:05.3237900+00:00  [INF] Emails sent for payroll batch ChapelHill.models.PayrollBatch (0772fd13)
+2017-12-04T14:42:05.4122908+00:00 0HL9R4KN7AUQV [INF] Request starting HTTP/1.1 GET http://localhost:5507/favicon.ico   (e5be5b71)
+2017-12-04T14:42:05.9469367+00:00  [INF] Emails sent for payroll batch ChapelHill.models.PayrollBatch (0772fd13)
+2017-12-04T14:42:06.7155049+00:00 0HL9R4KN7AUR0 [INF] Request starting HTTP/1.1 POST http://localhost:5507/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 167 (e5be5b71)
+2017-12-04T14:42:06.9427324+00:00 0HL9R4KN7AUQV [INF] Request finished in 1855.5775ms 404  (15c52c40)
+2017-12-04T14:42:07.0109948+00:00 0HL9R4KN7AUR0 [INF] Request finished in 369.3959ms 200 application/json (15c52c40)
+2017-12-04T14:42:08.6227689+00:00 0HL9R4KN7AUR1 [INF] Request starting HTTP/1.1 POST http://localhost:5507/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 167 (e5be5b71)
+2017-12-04T14:42:08.6428303+00:00 0HL9R4KN7AUR1 [INF] Request finished in 15.2577ms 200 application/json (15c52c40)
+2017-12-04T14:42:10.6192721+00:00 0HL9R4KN7AUR2 [INF] Request starting HTTP/1.1 POST http://localhost:5507/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 167 (e5be5b71)
+2017-12-04T14:42:10.6322265+00:00 0HL9R4KN7AUR2 [INF] Request finished in 11.5002ms 200 application/json (15c52c40)
+2017-12-04T14:42:12.6237442+00:00 0HL9R4KN7AUR3 [INF] Request starting HTTP/1.1 POST http://localhost:5507/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 167 (e5be5b71)
+2017-12-04T14:42:12.6367523+00:00 0HL9R4KN7AUR3 [INF] Request finished in 14.9042ms 200 application/json (15c52c40)
+2017-12-04T14:42:14.6184903+00:00 0HL9R4KN7AUR4 [INF] Request starting HTTP/1.1 POST http://localhost:5507/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 167 (e5be5b71)
+2017-12-04T14:42:14.6314925+00:00 0HL9R4KN7AUR4 [INF] Request finished in 8.9819ms 200 application/json (15c52c40)
+2017-12-04T14:42:16.6181012+00:00 0HL9R4KN7AUR5 [INF] Request starting HTTP/1.1 POST http://localhost:5507/hangfire/stats application/x-www-form-urlencoded; charset=UTF-8 167 (e5be5b71)
+2017-12-04T14:42:16.6311067+00:00 0HL9R4KN7AUR5 [INF] Request finished in 10.4571ms 200 application/json (15c52c40)
