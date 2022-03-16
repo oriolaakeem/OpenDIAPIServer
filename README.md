@@ -1,2 +1,2 @@
-# EkoAPICore
+# Open DI API Server
 API
