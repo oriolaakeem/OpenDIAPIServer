@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ChapelHill
+namespace OpenDIAPIServer
 {
     public static class Utils
     {
