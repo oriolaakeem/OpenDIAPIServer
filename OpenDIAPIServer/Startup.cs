@@ -59,10 +59,7 @@ namespace OpenDIAPIServer
             app.UseMvc();
 
             app.UseSwagger();
-            app.UseSwaggerUI(c => {
-                c.SwaggerEndpoint("/swagger/v1/swagger.json", "Chapel Hill DenHam Api");
-                
-            });
+            app.UseSwaggerUI();
 
             //loggerFactory.AddConsole(Configuration.GetSection("Logging"));
             //loggerFactory.AddDebug();
@@ -91,6 +88,11 @@ namespace OpenDIAPIServer
 
         public IServiceProvider ConfigureServices(IServiceCollection services)
         {
+            services.AddMvc().AddControllersAsServices();
+
+            //services.AddEndpointsApiExplorer();
+            services.AddSwaggerGen();
+
             // Add framework services.
             services.AddCors();
             services.AddMvc(options => { // allow xml format for input 
@@ -128,21 +130,21 @@ namespace OpenDIAPIServer
 
             services.AddSwaggerGen(c =>
             {
-                c.SwaggerDoc("v1", new Info
+                c.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
                 {
-                    Title = "Open DI API Serve",
+                    Title = "DI API Server",
                     Version = "v1",
-                    Description = "Open DI API Serve",
-                    TermsOfService = "Terms and Conditions Apply",
-                    Contact = new Contact
+                    Description = "Open DI API Server",
+                    TermsOfService = new Uri("http://www.apache.org/licenses/LICENSE-2.0.html"),
+                    Contact = new Microsoft.OpenApi.Models.OpenApiContact
                     {
                         Name = "Oriola Enterprises ",
                         Email = "oriolaakeem@outlook.com"
                     },
-                    License = new License
+                    License = new Microsoft.OpenApi.Models.OpenApiLicense
                     {
                         Name = "Apache 2.0",
-                        Url = "http://www.apache.org/licenses/LICENSE-2.0.html"
+                        Url = new Uri("http://www.apache.org/licenses/LICENSE-2.0.html")
                     }
                 });
                 c.CustomSchemaIds(x => x.FullName);
